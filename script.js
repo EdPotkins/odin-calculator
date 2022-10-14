@@ -1,3 +1,17 @@
+let displayValue = '0';
+let firstOperand = null;
+let secondOperand = null;
+let firstOperator = null;
+let secondOperator = null;
+let result = null;
+
+const buttons = document.querySelectorAll("button");
+
+function updateDisplay(){
+    const display = document.querySelector("#display");
+    display.textContent = displayValue; 
+}
+
 function add(a, b){
     return a + b;
 }
